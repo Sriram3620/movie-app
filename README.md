@@ -22,8 +22,8 @@ This is a React application that allows users to search for movies using the Ope
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/movie-search-app.git
-   cd movie-search-app
+   git clone git remote add origin https://github.com/Sriram3620/movie-app.git
+   cd movie-app
 
 2. Install the dependencies:
 
