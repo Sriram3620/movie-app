@@ -2,37 +2,96 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+
+
+.card-content {
+  padding: 10px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.card p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+.bg-con
+{
+  background-image: url("https://getwallpapers.com/wallpaper/full/f/1/b/375459.jpg");
   min-height: 100vh;
+  max-height: 100%;
+  width: 99vw;
+}
+
+.loader-con{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 70vh;
+}
+
+.movie-head
+{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nofoundimgcon
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.no-data-text
+{
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.nodatafoundimg
+{
+  height: 150px;
+}
+
+.nofoundimg
+{
+  height: 400px;
+}
+
+
+@media(max-width:576px)
+{
+  .nofoundimg
+  {
+    height: 300px;
   }
 }

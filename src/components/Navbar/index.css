@@ -1,0 +1,25 @@
+.logo
+{
+    padding-top: 10px;
+    height: 40px;
+    width: 100px;
+}
+.nav-home
+{
+    font-weight: bold;
+    padding-left: 30px!important;
+    font-size: 19px;
+}
+
+.err-msg
+{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.searchbtn
+{
+    height: 40px;
+}

@@ -1,0 +1,56 @@
+.card-img
+{
+    height: 200px!important;
+    
+}
+
+.card-bg
+{
+    display: flex!important;
+    background-color: black;
+    height: 60vh;
+    border-radius: 30px;
+    opacity: 0.8;
+    overflow-x: auto;
+}
+
+.title
+{
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.title-sub
+{
+   font-size: 18px;
+   font-family: "Roboto";
+   letter-spacing: 1px;
+}
+
+.card-btn
+{
+    flex-grow: 1!important;
+    align-self: flex-end;
+}
+
+.author
+{
+    color: white!important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.author-sub{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media(max-width:776px)
+{
+    .card-bg
+{
+    height: 100%;
+}
+}
